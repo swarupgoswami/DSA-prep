@@ -4,10 +4,11 @@ using namespace std;
 
 
 int binaryserachrecursion(vector<int>&nums,int start,int end,int t){
+    if(start>end) return -1;
     int mid=start+(end-start)/2;
-    if(mid==t) return mid;
+    if(nums[mid]==t) return nums[mid];
 
-    if(mid<t){
+    if(nums[mid]<t){
         return binaryserachrecursion(nums,mid+1,end,t);
     }
     else{

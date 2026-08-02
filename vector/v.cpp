@@ -28,8 +28,6 @@ int main(){
 
   vector<char> vec = {'s','w','a','r','a','m','a','r'};
 
-  cout<<"size"<<vec.size()<<endl;
-
 
   for(char i:vec){
     cout<<i<<endl;

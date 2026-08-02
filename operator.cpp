@@ -6,7 +6,6 @@ int main() {
     cout<<"enter the value of a and b"<<endl;
     cin>>a>>b;
     int sum=a+b;
-    cout<<"division using typecasting"<<(int)(a/(float)b)<<endl;
     cout<<"multiplication is"<<(a*b)<<endl;
     cout<<"substraction is"<<(a-b)<<endl;
     cout<<"sum is :"<<sum<<endl;

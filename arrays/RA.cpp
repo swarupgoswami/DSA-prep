@@ -1,6 +1,6 @@
 // using 2 pointer approach
 
-// approach- here in the array we take two pointer(two variables)one to the strating index(0) and another to the last index(-1) and we wil keep moving the starting index to right and -lst index to left following the swap ;  
+// approach- here in the array we take two pointer(two variables)one to the strating index(0) and another to the last index(-1) and we wil keep moving the starting index to right and -lst index to left following the swap 
 
 
 #include<iostream>

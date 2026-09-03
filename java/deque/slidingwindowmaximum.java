@@ -49,3 +49,16 @@ class slidingwindowmaximum{
         System.out.println(Arrays.toString(ans));
     }
 }
+
+// deque<int>       → Deque<Integer>
+// deque<int> dq    → Deque<Integer> dq = new ArrayDeque<>();
+
+// dq.back()        → dq.peekLast()
+// dq.front()       → dq.peekFirst()
+
+// dq.pop_back()    → dq.pollLast()
+// dq.pop_front()   → dq.pollFirst()
+
+// dq.push_back(i)  → dq.addLast(i)
+
+// dq.empty()       → dq.isEmpty()
